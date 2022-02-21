@@ -238,8 +238,6 @@ body {
     content: "";
     width: 5px;
     height: 10px;
-    background: -webkit-gradient(linear, , from(var(--yellow)), to(transparent));
-    background: -o-linear-gradient(var(--direction, left), var(--yellow), transparent);
     background: linear-gradient(to var(--direction, left), var(--yellow), transparent);
 }
 
@@ -248,8 +246,6 @@ body {
     content: "";
     width: 5px;
     height: 10px;
-    background: -webkit-gradient(linear,  from(var(--yellow)), to(transparent));
-    background: -o-linear-gradient(var(--direction, left), var(--yellow), transparent);
     background: linear-gradient(to var(--direction, left), var(--yellow), transparent);
 } 
 
